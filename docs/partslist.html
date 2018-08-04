@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>RasPi to RE Module Interface</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="mt-4 mb-4 mt-sm-4 mb-sm-4 mt-md-4 mb-md-4 mt-lg-4 mb-lg-4 mt-xl-4 mb-xl-4">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>記号</th>
+              <th>名称、型番</th>
+              <th>備考</th>
+              <th>数量</th>
+              <th>主な販売店</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>-</td>
+              <td>プリント基板</td>
+              <td></td>
+              <td>1</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>U1</td>
+              <td>オペアンプ NJM3414AD</td>
+              <td>ICソケットを使用（任意）</td>
+              <td>1</td>
+              <td>秋月 (I-02368)</td>
+            </tr>
+            <tr>
+              <td>U2</td>
+              <td>レールスプリッタ TLE2426CLP</td>
+              <td></td>
+              <td>1</td>
+              <td>秋月 (I-06868)</td>
+            </tr>
+            <tr>
+              <td>U3</td>
+              <td>ロジックIC SN74LVC245A</td>
+              <td></td>
+              <td>1</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>RV1</td>
+              <td>基板取付用2連ボリュームA 10k</td>
+              <td></td>
+              <td>1</td>
+              <td>秋月 (P-03604)</td>
+            </tr>
+            <tr>
+              <td>J1</td>
+              <td>ステレオピンジャック MJ-8435</td>
+              <td></td>
+              <td>1</td>
+              <td>秋月 (C-09060)</td>
+            </tr>
+            <tr>
+              <td>JP1, JP2</td>
+              <td>ピンソケット 2列x20</td>
+              <td></td>
+              <td>2</td>
+              <td>秋月 (C-00085)</td>
+            </tr>
+            <tr>
+              <td>JP3, JP4</td>
+              <td>ジャンパ</td>
+              <td>部品の足を使用</td>
+              <td>2</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>R1, R2</td>
+              <td>金属被膜抵抗 100kΩ (茶黒黒橙茶)</td>
+              <td></td>
+              <td>2</td>
+              <td>千石</td>
+            </tr>
+            <tr>
+              <td>R3, R4</td>
+              <td>金属被膜抵抗 3.3kΩ (橙橙黒茶茶)</td>
+              <td></td>
+              <td>2</td>
+              <td>千石</td>
+            </tr>
+            <tr>
+              <td>R5, R6</td>
+              <td>金属被膜抵抗 1kΩ (茶黒黒茶茶)</td>
+              <td></td>
+              <td>2</td>
+              <td>千石</td>
+            </tr>
+            <tr>
+              <td>R7</td>
+              <td>チップ抵抗 10kΩ</td>
+              <td></td>
+              <td>1</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>C1, C2, C5</td>
+              <td>電解コンデンサ 100μF/10V (UTWRZ)</td>
+              <td>極性あり</td>
+              <td>3</td>
+              <td>千石</td>
+            </tr>
+            <tr>
+              <td>C6, C7, C8, C9</td>
+              <td>電解コンデンサ 10μF/25V (MUSE ES)</td>
+              <td>極性なし</td>
+              <td>4</td>
+              <td>秋月 (P-04624)</td>
+            </tr>
+            <tr>
+              <td>C12, C13</td>
+              <td>電解コンデンサ 330μF/6.3V (ニチコン MW)</td>
+              <td>極性あり</td>
+              <td>2</td>
+              <td>秋月 (P-08374)</td>
+            </tr>
+            <tr>
+              <td>C3</td>
+              <td>積層セラミックコンデンサ 0.1μF</td>
+              <td></td>
+              <td>1</td>
+              <td>秋月 (P-02211)</td>
+            </tr>
+            <tr>
+              <td>C4</td>
+              <td>チップコンデンサ 0.1μF</td>
+              <td></td>
+              <td>1</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>C10, C11</td>
+              <td>ポリプロピレンフィルムコンデンサ 1000pF (102J)</td>
+              <td></td>
+              <td>2</td>
+              <td>千石</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>丸ピンICソケット 8ピン</td>
+              <td>U1に使用</td>
+              <td>1</td>
+              <td>秋月 (P-00035)</td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td>M2.6 スペーサー (11mm)、ネジ、ワッシャー 各4</td>
+              <td>ミニマムセット、部品セット共に付属しません</td>
+              <td>1</td>
+              <td>千石</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
